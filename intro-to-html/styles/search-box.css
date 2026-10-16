@@ -1,0 +1,106 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text-box-1 {
+  font-size: 16px;
+  width: 500px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(96, 96, 96);
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+.text-box-1:active {
+  border-width: 0.5px;
+}
+
+.text-box-2 {
+  font-size: 16px;
+  width: 500px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+.linkedin-text {
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: rgb(96, 96, 96);
+}
+
+.text-box-3 {
+  font-size: 16px;
+  width: 250px;
+  border-radius: 4px;
+  border-width: 1.5px;
+  border-color: black;
+  margin-right: 80px;
+  margin-right: 50px;
+}
+
+.linkedin-button {
+  color: white;
+  background-color: rgb(21, 79, 196);
+  border: none;
+  border-radius: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 155px;
+  padding-right:155px;
+  cursor: pointer;
+  align-items: center;
+  transition: opacity 0.15s;
+}
+
+.linkedin-button:hover {
+  opacity: 0.2;
+}
+
+.linkedin-button:active {
+  opacity: 0.5;
+}
+
+.profile-picture {
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.text-box {
+  margin-top: 50px;
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.tweet-button {
+  margin-top: 50px;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
