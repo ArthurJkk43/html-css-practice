@@ -1,0 +1,235 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.fl1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: lightpink;
+  width: 100px;
+
+}
+
+.fl2 {
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  width: 200px;
+}
+
+.item1 {
+  background-color: black;
+  color: white;
+  height: 20px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2-item {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  margin-bottom: 30px;
+}
+
+.inbox-label {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sender-picture-container {
+  margin-right: 10px;
+}
+
+.sender-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.email-content {
+  flex: 1;
+}
+
+.email-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.sender-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.send-time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subject {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message {
+  color: rgb(120, 120, 120);
+}
+
+.container3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.container-twitter {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container {
+  margin-right: 10px;
+}
+
+.pfp {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-author {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.nickname1 {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.nickname2 {
+  font-size: 15px;
+  color: rgba(73, 70, 70);
+}
+
+.video-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.thumbnail-column {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.video-info-column {
+  flex: 1;
+}
+
+.video-website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.video-title {
+  line-height: 22px;
+}
+
